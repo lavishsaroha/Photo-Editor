@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(255, 255, 255);
+}
+.clr{
+    border-style: solid;
+    border-color: lab(36.47% 66.54 -100.91);
+    background-color: rgb(0, 255, 195);
+}
+h1{
+   
+    text-align: center;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    border-style: outset;
+    border-color:brown;
+}
+h1:hover{
+    font-style: italic;
+    color:rgb(255, 0, 0);
+}
+figure{
+    padding-left: 2cm;;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:400px;
+    height: 200px;
+}
+.name{
+    padding-top: 2cm;
+    display:flex;
+}
+.name1{
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    display:flex;
+}
+.lavish{
+    display:flex;
+    border-style:solid;
+    border-color:black;
+}
+
+img{
+    background-color: blue;
+    border-style:solid;
+    border-color:black;
+}
+figcaption{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style:inset;
+    border-color:blue;
+    background-color: rgb(255, 255, 255);
+}
+figcaption:hover{
+    background-color:black;
+    color:white;
+}
+.im1{
+    transition: transform 0.3s ease;
+    
+}
+
+.im1:hover{
+    transform:scale(1.03);
+}
+h1{
+    transition: transform 0.3s ease;
+}
+
+h1:hover{
+    transform: scale(1.01);
+}
+
+input{
+    width: 90%;
+    border-style: inset;
+    border-color:blue ;
+    border-radius: 20px;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 6cm;
+}
+input{
+    transition: transform 0.3s ease;
+}
+input:hover{
+    transform:scale(1.03)
+}
+::placeholder{
+    color:black;
+}
+.footernav{
+    border-style: double;
+    border-color: black;
+    border-width: 1ch;
+    background-color: aquamarine;
+}
